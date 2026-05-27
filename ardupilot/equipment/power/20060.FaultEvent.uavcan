@@ -1,0 +1,12 @@
+#
+# Power distribution board fault event.
+#
+
+uint8 board_id        # Fixed board/node id, e.g. 42
+uint8 fault_seq       # Incremented on each new fault/recovery event
+uint8 circuit_id      # 0=BAT1,1=BAT2,2=12V_F,3=12V_P,4=24V,5=5V,6=7V5
+uint8 error_flags     # 0x01=over voltage, 0x02=under voltage, 0x04=over current
+uint16 voltage_mv     # Voltage when event was generated
+uint16 current_ma     # Current when event was generated, 0 if not available
+uint8 active          # 1=fault active, 0=fault recovered
+
