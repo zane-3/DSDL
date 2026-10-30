@@ -24,3 +24,11 @@ For service types, the following should be used:
  - [200, 256) Vendor-specific service types
 
 * [**DroneCAN website**](http://dronecan.org)
+
+<!-- PROJECT_DOCS_START -->
+## 文档与架构
+
+- [分类文档目录](docs/README.md)
+- [模块与依赖架构](docs/architecture.md)
+- [仓库分支目录](docs/branches.md)
+<!-- PROJECT_DOCS_END -->
